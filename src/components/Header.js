@@ -6,9 +6,9 @@ export default function Header(){
 
     const [image, setImage] = React.useState(``);
     const [meme, setMeme] = React.useState({
-        lefttext:``,
-         righttext:``,
-         randomMeme:``
+        lefttext:"",
+        righttext:"",
+        randomMeme:""
     })
 
     const [allMemeImages, setAllMemeImages] = React.useState(memesData)
@@ -37,21 +37,24 @@ export default function Header(){
 
     return (
         <div className='belowp'>
-            
             <div className='form'>
 
-                <input type="text" placeholder='Shut up' 
+                <input type="text" 
+                placeholder='Shut up' 
                 name="lefttext" 
                 value={meme.lefttext}
-                onChange={handleChange}
-                >
-
+                onChange={handleChange}>
                 </input>
+
+
+
                 <input type="text" 
                 placeholder='And take my money' 
-                name="rightext" value={meme.righttext} 
+                name="righttext" 
+                value={meme.righttext} 
                 onChange={handleChange}>
                 </input> 
+
                 
             </div>
             
@@ -68,7 +71,7 @@ export default function Header(){
             <h2 className="meme--text top">{meme.lefttext}</h2>
             <h2 className="meme--text bottom">{meme.righttext}</h2>
             </div>
-            
+
         </div>
     )
 }
