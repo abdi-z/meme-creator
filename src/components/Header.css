@@ -1,0 +1,98 @@
+
+.belowp {
+    display: flex;
+    flex-direction: column;
+    margin-left:110px;
+    margin-right:110px;
+}
+
+.btn--getnew {
+    
+    border-style: none;
+    background: rgb(104,35,128);
+    background: linear-gradient(90deg, rgba(104,35,128,1) 0%, rgba(166,38,211,1) 100%);
+    border-radius: 10px;
+    font-size: 18px;
+    width:100%;
+    
+    margin-top:20px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    
+    all:unset;
+    margin-top:20px;
+    width:40%;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:grey;
+    border-radius: 10px;
+}
+
+
+.image--meme {
+    margin-top:20px;
+    
+    max-height: 330px;
+    
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.image {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
