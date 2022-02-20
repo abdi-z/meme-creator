@@ -4,14 +4,14 @@ import memesData from './memesData.js'
 
 export default function Header(){
 
-    const [image, setImage] = React.useState(``);
+    // const [image, setImage] = React.useState(``);
     const [meme, setMeme] = React.useState({
         lefttext:"",
         righttext:"",
         randomMeme:""
     })
 
-    const [allMemeImages, setAllMemeImages] = React.useState(memesData)
+    // const [allMemeImages, setAllMemeImages] = React.useState(memesData)
 
         let randomNumber=Math.floor(Math.random()*100);
         
