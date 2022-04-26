@@ -1,8 +1,8 @@
-A random meme generating tool created using react deployed live on url https://meme-creator-by-ar.herokuapp.com/
+A random meme generating tool created using react library which allows the user to play around with hundreds of different meme templates by fetching the data from a public api https://api.imgflip.com/get_memes.
 
 <img width="960" alt="memeCre1" src="https://user-images.githubusercontent.com/92116477/164991977-2d1254b1-6dbb-42b3-8f41-54f2e2e8eb75.png">
 
-The data was fetched from a public api https://api.imgflip.com/get_memes
+deployed live on url https://meme-creator-by-ar.herokuapp.com/
 
 <img width="960" alt="memeCre2" src="https://user-images.githubusercontent.com/92116477/164991979-8a698333-a245-4c39-9349-d3f1b43d3dec.png">
 
